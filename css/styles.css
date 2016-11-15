@@ -1,0 +1,30 @@
+body {
+  background-image: url(../img/cork-board.jpg);
+}
+
+.polaroid {
+  width: 500px;
+}
+
+.test {
+  width: 525px;
+  height: 550px;
+  margin-top: 200px;
+  position: relative;
+}
+
+.test::after {
+  content: url("../img/red-pin.png");
+  position: absolute;
+  top: -150px;
+  left: 0px;
+}
+
+
+#fill {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  top: 61px;
+  left: 71px;
+}
